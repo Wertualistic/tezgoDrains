@@ -14,7 +14,7 @@ function Navbar() {
         <h1 className="text-[#000000] text-[22px]">Tezgo drains</h1>
         <div className="flex gap-12 items-center text-[#003060] text-[20px] font-[600]">
           <a className="flex gap-2" href="tel:9988 999 0077">
-            <i class="ri-phone-fill"></i>
+            <i className="ri-phone-fill"></i>
             9988 999 0077
           </a>
           <a
