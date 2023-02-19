@@ -4,9 +4,27 @@
   box-sizing: border-box;
 }
 
+html{
+  transition: all .5s linear;
+}
+
 .App{
   text-align: center;
   background: #F5F5F5;
+}
+
+.classActive{
+  color: #FFAC33;
+  padding-bottom: 20px;
+  transition: all .5s;
+}
+
+.accordion{
+  transition: all .5s;
+}
+
+.info{
+  transition: all .5s;
 }
 
 .active{
@@ -32,6 +50,19 @@
   transition: .5s ease-in-out;
 }
 
+.item:hover{
+  color: white;
+  font-weight: 400;
+  padding: 17px 25px;
+  font-size: 20px;
+  background: white;
+  color: #003060;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s ease-in-out;
+}
+
 .page1{
   background-image: url(../src/assets/Page1/page1.png);
   background-position: center;
@@ -45,4 +76,33 @@
   background-repeat: no-repeat;
   background-position: start;
   background-size: cover;
+}
+
+.section3{
+  background-image: url(./assets/Page1/image1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.matrix{
+  transform: matrix(1, -0.01, 0.01, 1, 0, 0);
+}
+
+.matrix::after{
+  content: '9988 999 0077';
+  position: absolute;
+  width: 420px;
+  height: 68px;
+  background: rgba(0, 48, 96, 0.4);
+  transform: matrix(1, 0.09, -0.07, 1, 0, 0);
+}
+
+.matrix::before{
+  content: '';
+  position: absolute;
+  width: 420px;
+  height: 68px;
+  background: rgba(0, 48, 96, 0.4);
+  transform: matrix(0.99, -0.11, 0.09, 1, 0, 0);
 }

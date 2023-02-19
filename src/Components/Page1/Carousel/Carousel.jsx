@@ -38,7 +38,7 @@ export default function Carousel() {
           isIntrinsicHeight={true}
           totalSlides={7}
           visibleSlides={2}
-          step={2}
+          step={1}
           infinite={true}
         >
           <div className="relative flex items-center justify-center w-[1100px]">
@@ -78,11 +78,11 @@ export default function Carousel() {
                           <h1>Вероника Лимонова</h1>
                         </div>
                         <div className="flex">
-                          <i class="ri-star-fill text-[23px] text-[#CEC9C1]"></i>
-                          <i class="ri-star-fill text-[23px] text-[#FFAC33]"></i>
-                          <i class="ri-star-fill text-[23px] text-[#FFAC33]"></i>
-                          <i class="ri-star-fill text-[23px] text-[#FFAC33]"></i>
-                          <i class="ri-star-fill text-[23px] text-[#FFAC33]"></i>
+                          <i className="ri-star-fill text-[23px] text-[#CEC9C1]"></i>
+                          <i className="ri-star-fill text-[23px] text-[#FFAC33]"></i>
+                          <i className="ri-star-fill text-[23px] text-[#FFAC33]"></i>
+                          <i className="ri-star-fill text-[23px] text-[#FFAC33]"></i>
+                          <i className="ri-star-fill text-[23px] text-[#FFAC33]"></i>
                         </div>
                       </div>
                       <p className="text-start pt-[10px]">
@@ -101,11 +101,11 @@ export default function Carousel() {
                           <h1>Вероника Лимонова</h1>
                         </div>
                         <div className="flex">
-                          <i class="ri-star-fill text-[23px] text-[#CEC9C1]"></i>
-                          <i class="ri-star-fill text-[23px] text-[#FFAC33]"></i>
-                          <i class="ri-star-fill text-[23px] text-[#FFAC33]"></i>
-                          <i class="ri-star-fill text-[23px] text-[#FFAC33]"></i>
-                          <i class="ri-star-fill text-[23px] text-[#FFAC33]"></i>
+                          <i className="ri-star-fill text-[23px] text-[#CEC9C1]"></i>
+                          <i className="ri-star-fill text-[23px] text-[#FFAC33]"></i>
+                          <i className="ri-star-fill text-[23px] text-[#FFAC33]"></i>
+                          <i className="ri-star-fill text-[23px] text-[#FFAC33]"></i>
+                          <i className="ri-star-fill text-[23px] text-[#FFAC33]"></i>
                         </div>
                       </div>
                       <p className="text-start pt-[10px]">

@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div className="flex flex-col">
       <nav className="flex justify-between  p-8">
-        <h1 className="text-[#000000] text-[22px]">Tezgo drains</h1>
+        <Link to='/' className="text-[#000000] text-[22px]">Tezgo drains</Link>
         <div className="flex gap-12 items-center text-[#003060] text-[20px] font-[600]">
           <a className="flex gap-2" href="tel:9988 999 0077">
             <i className="ri-phone-fill"></i>
@@ -26,7 +26,7 @@ function Navbar() {
         </div>
       </nav>
       <div className="menu flex items-center justify-around bg-[#003060] h-[70px]">
-          <Link to='/home' onClick={() => handleItemClick('home')} className={activeItem === 'home' ? 'active' : 'item'}>HOME</Link>
+          <Link to='/' onClick={() => handleItemClick('home')} className={activeItem === 'home' ? 'active' : 'item'}>HOME</Link>
           <Link to='/survey' onClick={() => handleItemClick('survey')} className={activeItem === 'survey' ? 'active' : 'item'}>CCTV DRAIN SURVEY</Link>
           <Link to='/services' onClick={() => handleItemClick('services')} className={activeItem === 'services' ? 'active' : 'item'}>DRAINAGE SERVICES</Link>
           <Link to='/area' onClick={() => handleItemClick('area')} className={activeItem === 'area' ? 'active' : 'item'}>SERVICE AREA</Link>
