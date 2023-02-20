@@ -6,6 +6,7 @@ import Header from "../Components/Page1/Header/Header";
 import Section1 from "../Components/Page1/Section1/Section1";
 import Section2 from "../Components/Page1/Section2/Section2";
 import Section3 from "../Components/Page1/Section3/Section3";
+import Section4 from "../Components/Page1/Section4/Section4";
 import data from "../Questions";
 
 function Home() {
@@ -22,6 +23,7 @@ function Home() {
         return <Accordion key={item.id} {...item} />;
       })}
       <Section3 />
+      <Section4 />
       <Areas />
     </div>
   );
